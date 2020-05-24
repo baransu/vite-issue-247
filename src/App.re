@@ -6,6 +6,10 @@
 [@react.component]
 let make = () => {
   let (count, setCount) = React.useState(() => 0);
+
+  let countJson = Json.Encode.int(count);
+  Js.log2("Count JSON", countJson);
+
   <div className="App">
     <header className="App-header">
       <img src=logo className="App-logo" alt="logo" />

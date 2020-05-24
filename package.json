@@ -9,6 +9,7 @@
     "re:clean": "bsb -clean-world"
   },
   "dependencies": {
+    "@glennsl/bs-json": "^5.0.2",
     "@pika/react": "^16.13.1",
     "@pika/react-dom": "^16.13.1",
     "re-classnames": "^4.1.0"
