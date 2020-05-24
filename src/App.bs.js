@@ -16,6 +16,7 @@ function App(Props) {
         }));
   var setCount = match[1];
   var count = match[0];
+  console.log("Count JSON", count);
   return React.createElement("div", {
               className: "App"
             }, React.createElement("header", {
